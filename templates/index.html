@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Downloader</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center justify-center h-screen">
+  <h1 class="text-3xl mb-4 font-bold">🎥 YouTube Downloader</h1>
+  <form action="/download" method="POST" class="flex gap-2">
+    <input name="url" type="text" placeholder="https://www.youtube.com/watch?v=..." class="p-2 rounded text-black w-96" required>
+    <button type="submit" class="bg-blue-600 px-4 py-2 rounded hover:bg-blue-700">ダウンロード</button>
+  </form>
+</body>
+</html>
